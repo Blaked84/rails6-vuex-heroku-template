@@ -10,6 +10,7 @@
     "turbolinks": "^5.2.0",
     "vue": "^2.6.11",
     "vue-loader": "^15.9.2",
+    "vue-router": "^3.1.6",
     "vue-template-compiler": "^2.6.11",
     "vuex": "^3.4.0"
   },
