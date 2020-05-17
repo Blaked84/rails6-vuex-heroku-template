@@ -5,11 +5,15 @@
 </template>
 
 <script>
+import {mapGetters} from 'vuex'
 export default {
   data: function () {
     return {
       message: "Hello Vue!"
     }
+  },
+  computed: {
+    ...mapGetters(["cart/items"]),
   }
 }
 </script>

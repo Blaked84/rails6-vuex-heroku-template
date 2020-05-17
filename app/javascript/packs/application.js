@@ -7,10 +7,16 @@
 
 import Vue from 'vue'
 import App from '../app.vue'
+import Vuex from 'vuex'
+import store from './../store'
+import 'es6-promise/auto'
+
+Vue.use(Vuex)
 
 document.addEventListener('DOMContentLoaded', () => {
   const app = new Vue({
-    render: h => h(App)
+    render: h => h(App),
+    store
   }).$mount()
   document.body.appendChild(app.$el)
 
