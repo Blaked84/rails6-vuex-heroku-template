@@ -11,6 +11,7 @@ import store from './../store'
 import 'es6-promise/auto'
 import VueRouter from 'vue-router'
 import router from './../router'
+import vuetify from './../plugins/vuetify'
 
 Vue.use(Vuex)
 Vue.use(VueRouter)
@@ -19,7 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const app = new Vue({
     el: '#app',
     store,
-    router
+    router,
+    vuetify
   })
 })
 

@@ -1,7 +1,13 @@
 <template>
-  <div id="app">
-    <p>{{ message }}</p>
-  </div>
+  <v-app id="app">
+    <v-content>
+      <p>{{ message }}</p>
+      <v-btn color="primary">
+        Vuetify button
+      </v-btn>
+    </v-content>
+
+  </v-app>
 </template>
 
 <script>
